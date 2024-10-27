@@ -4,7 +4,7 @@ const app = fastify();
 
 app
   .listen({
-    port: 3333,
+    port: 5173,
   })
   .then(() => {
     console.log("http server running");
